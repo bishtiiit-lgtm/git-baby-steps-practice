@@ -5,6 +5,8 @@
 **Task size:** Implementation-level
 **Team filter:** Configurable placeholder until the exact Jira group/account/team mapping is confirmed
 
+**Status snapshot (2026-09-18):** Planning and requirements clarification are complete. The repository currently contains the specification and backlog only; Jira retrieval, risk evaluation, report generation, integrations, CI workflow, and automated tests have not been implemented. Completed checkboxes below reflect only verified repository work.
+
 ## Phase 1: Setup
 
 - [ ] Confirm the Jira team filter value for `bishtiiit` and document the final group, account ID, or project-role mapping.
@@ -16,9 +18,9 @@
 - [ ] Define non-secret configuration for Jira base URL, project keys `SAM1` and `KAN`, team filter, thresholds, timezone, and report destinations.
 - [ ] Define required secret names for Atlassian, SMTP, and Teams credentials without storing values in the repository.
 - [ ] Add `.env.example` containing safe placeholder names and no real credentials.
-- [ ] Verify `.env`, local credentials, caches, and generated reports are excluded from Git as appropriate.
+- [x] Verify `.env` and Python caches are excluded from Git; generated reports are not currently produced.
 - [ ] Add structured logging with secret and personal-data redaction.
-- [ ] Define the report data model for metadata, findings, severity, evidence, recommendations, and source links.
+- [x] Define the report data model for metadata, findings, severity, evidence, recommendations, and source links in `project_spec.md`.
 
 ## Phase 2: Core Features
 
