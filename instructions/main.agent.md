@@ -9,3 +9,8 @@
   + Keywords: create instruction, add instruction, instruction file, setup instructions, agent instruction
   + Target: `**/*.md`
   + Exceptions: not for code implementation tasks or business logic work
+
+- [./instructions/update-confluence-project-status.agent.md](./update-confluence-project-status.agent.md) — Update a Confluence project status page with a concise summary of accomplishments, blockers, and next steps.
+  + Keywords: Confluence update, project status page, update project status, status page update
+  + Target: `**/*.md`
+  + Exceptions: not for code changes, architecture docs, or unstructured meeting notes
