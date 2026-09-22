@@ -14,3 +14,13 @@
   + Keywords: Confluence update, project status page, update project status, status page update
   + Target: `**/*.md`
   + Exceptions: not for code changes, architecture docs, or unstructured meeting notes
+
+- [./instructions/calculate-compound-interest.agent.md](./calculate-compound-interest.agent.md) — Calculate compound interest with the project command-line tool and present the final amount and interest earned.
+  + Keywords: compound interest, interest calculation, calculate interest, investment growth
+  + Target: `**/*.md`
+  + Exceptions: not for simple arithmetic or financial advice
+
+- [./instructions/use-retrieve_issue.agent.md](./use-retrieve_issue.agent.md) — Retrieve Jira issue details with the `tools/retrieve_issue.py` command-line tool.
+  + Keywords: retrieve Jira issue, issue details, Jira status, issue metadata
+  + Target: `**/*.md`
+  + Exceptions: not for creating, editing, or transitioning Jira issues
